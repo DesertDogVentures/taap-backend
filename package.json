@@ -1,0 +1,32 @@
+{
+  "name": "tapapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "sudo NODE_ENV=production node ./bin/www"
+  },
+  "dependencies": {
+    "apn": "^1.7.8",
+    "body-parser": "~1.15.1",
+    "connect-redis": "^3.1.0",
+    "cookie-parser": "~1.4.3",
+    "dateformat": "^1.0.12",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "express-session": "^1.14.2",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^7.1.9",
+    "log4js": "^1.0.1",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.15.1",
+    "morgan": "~1.7.0",
+    "multer": "^1.2.0",
+    "mysql": "^2.12.0",
+    "node-mysql": "^0.4.2",
+    "nodemailer": "^4.4.2",
+    "passport": "^0.3.2",
+    "redis": "^2.6.3",
+    "serve-favicon": "~2.3.0",
+    "typings": "^1.4.0"
+  }
+}
